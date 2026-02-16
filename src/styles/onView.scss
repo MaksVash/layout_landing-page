@@ -1,0 +1,133 @@
+.on-view {
+  display: grid;
+  gap: 48px;
+  justify-content: center;
+}
+
+.blok-galery {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+
+.botom {
+  margin: 0 auto;
+   text-align: center;
+  width: 324;
+  height: 56;
+  line-height: 56px;
+  background-color: #d12d35;
+}
+
+@media (max-width: 744px) {
+  .botom {
+    width: 280;
+    height: 56;
+  }
+}
+
+.botom:hover {
+  background-color: #ae1c23;
+}
+
+.botom:active {
+  background-color: #eb343d;
+}
+
+.botom-link {
+  color: #fff;
+  font-family: Cinzel,sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media (max-width: 744px) {
+  .botom-link {
+    padding: 15px 50px;
+  }
+  .view-info {
+    width: 280;
+  }
+}
+
+.view-titil {
+  margin-bottom: 0;
+}
+
+.view-p {
+  font-family: Cinzel,sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0;
+}
+
+.view-red-p {
+  color: #d12d35;
+  font-family: Cinzel,sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0;
+}
+
+@media (max-width: 1260px) {
+  .midl-img {
+    width: 288;
+    height: 284;
+  }
+  .big-img {
+    width: 392;
+    height: 186;
+  }
+  .img-hide {
+    display: none;
+  }
+  .poetClock-img {
+    width: 184;
+    height: 186;
+  }
+}
+
+@media (max-width: 744px) {
+  .midl-img {
+    width: 130;
+    height: 130;
+  }
+
+  .big-img {
+    width: 130;
+    height: 130;
+  }
+
+  .smol-img {
+    width: 88;
+    height: 87;
+  }
+
+  .img-hide {
+    display: block;
+  }
+
+  .poetClock-img {
+    width: 130;
+    height: 130;
+  }
+
+  .blok-galary-midl {
+    gap: 8px;
+  }
+
+  .view-p {
+    display: flex;
+  }
+
+  .view-red-p {
+    margin: 0;
+  }
+}

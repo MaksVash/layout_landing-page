@@ -1,3 +1,107 @@
+@import 'header';
+@import 'aside';
+@import './icon';
+@import './museum';
+@import './onView';
+@import './footer';
+@import './explore';
+@import './contact';
+
 body {
   margin: 0;
+}
+
+.content {
+  display: grid;
+  width: 100vw;
+  gap: 140px;
+}
+
+h2 {
+  font-family: Cinzel,sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 744px) {
+  h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+h3 {
+  font-family: Cinzel,sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-midl {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 55px;
+}
+
+@media (max-width: 1260px) {
+  .navigation {
+    gap: 27px;
+  }
+}
+
+.phone-number {
+  display: grid;
+  gap: 8px;
+  width: 201;
+  height: 116;
+  position: fixed;
+  right: 250px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.number-1,
+.number-2 {
+  color: #fff;
+  font-family: Cinzel,sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.phone-number:target {
+  pointer-events: all;
+  opacity: 1;
+}
+
+
+
+
+.section-titel {
+  text-align: center;
 }

@@ -12,13 +12,18 @@ body {
 }
 
 .content {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  margin-bottom: 359px;
   display: grid;
   width: 100vw;
   gap: 140px;
+  scroll-behavior: smooth;
 }
 
 h2 {
-  font-family: Cinzel,sans-serif;
+  font-family: Cinzel, sans-serif;
   font-weight: 700;
   font-style: Bold;
   font-size: 48px;
@@ -35,7 +40,7 @@ h2 {
 }
 
 h3 {
-  font-family: Cinzel,sans-serif;
+  font-family: Cinzel, sans-serif;
   font-weight: 700;
   font-style: Bold;
   font-size: 24px;
@@ -84,7 +89,7 @@ p {
 .number-1,
 .number-2 {
   color: #fff;
-  font-family: Cinzel,sans-serif;
+  font-family: Cinzel, sans-serif;
   font-weight: 700;
   font-style: Bold;
   font-size: 16px;
@@ -99,9 +104,17 @@ p {
   opacity: 1;
 }
 
-
-
-
 .section-titel {
   text-align: center;
+}
+
+img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  display: block;
+  overflow: hidden;
+}
+
+img:hover {
+  transform: scale(1.1);
 }

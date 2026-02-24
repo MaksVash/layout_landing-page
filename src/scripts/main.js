@@ -9,7 +9,7 @@ phone.addEventListener('mouseenter', () => {
   document.querySelector('.phone-number').classList.remove('displey-none');
 });
 
-phone.addEventListener('mouseleave', () => {
+phone.addEventListener('click', () => {
   document.querySelector('.phone-number').classList.add('displey-none');
 });
 

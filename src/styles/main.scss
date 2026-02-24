@@ -89,8 +89,21 @@ p {
 .phone-number {
   display: grid;
   position: absolute;
-  right: 18%;
+  right: 220px;
   top: 28.5PX;
+}
+
+@media (max-width: 1260px) {
+  .phone-number {
+    right: 145px;
+  }
+}
+
+@media (max-width: 744px) {
+  .phone-number {
+    top: 12px;
+    right: 95px;
+  }
 }
 
 .displey-none {

@@ -184,4 +184,9 @@ line-height: 140%;
 letter-spacing: 0;
 color: #3E3E3E;
 text-decoration: none;
+transition: all 0.3s ease-in-out;
+}
+
+.contact-text-bolt:hover {
+  color: #161616;
 }

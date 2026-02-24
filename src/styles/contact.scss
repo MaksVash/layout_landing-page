@@ -1,12 +1,14 @@
 @media (max-width: 1260px) {
   .contacts {
     width: 600px;
+    margin-bottom: 156px;
   }
 }
 
 @media (max-width: 744px) {
   .contacts {
     width: 280px;
+    margin-bottom: 84px;
   }
 }
 
@@ -86,7 +88,13 @@ form {
   gap: 16px;
 }
 
-.input-siz {
+@media (max-width:744px) {
+  form {
+    margin-top: 48px;
+  }
+}
+
+.input {
   font-family: Cinzel, sans-serif;
   font-weight: 400;
   font-style: Regular;
@@ -119,20 +127,20 @@ form {
   text-align: start;
 }
 
-.input-siz:hover,
+.input:hover,
 .textarea:hover {
   color: #161616;
   border: 1px solid #d5d7de;
 }
 
-.input-siz:active,
+.input:active,
 .textarea:active {
   color: #161616;
   border: 1px solid #161616;
 }
 
 @media (max-width: 1260px) {
-  .input-siz,
+  .input,
   .textarea,
   .form-botom {
     width: 288px;
@@ -140,7 +148,7 @@ form {
 }
 
 @media (max-width: 744px) {
-  .input-siz,
+  .input,
   .textarea,
   .form-botom {
     width: 280px;
@@ -155,4 +163,25 @@ input::placeholder {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  transition: all 0.3s ease;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: #161616;
+}
+
+.contact-text-bolt {
+  font-family: Cinzel, sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0;
+color: #3E3E3E;
+text-decoration: none;
 }

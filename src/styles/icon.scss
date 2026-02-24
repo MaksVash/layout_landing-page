@@ -1,7 +1,7 @@
 .logo {
   width: 87px;
   height: 65px;
-  background-image: url(/src/images/icon/THE\ MET\ \(3\).png);
+  background-image: url(./images/icon/THEMET.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,34 +15,59 @@
 }
 
 .icon {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-@media (max-width: 744px) {
-  .icon {
-    width: 24px;
-    height: 24px;
-  }
+  transition: all 0.3s ease;
 }
 
 .icon-phone {
-  background-image: url(/src/images/icon/phone.png);
+  background-image: url(./images/icon/phone.svg);
+}
+
+@media (max-width: 744px) {
+  .icon-phone {
+    width: 18px;
+    height: 18px;
+  }
 }
 
 .icon-burger {
-  background-image: url(/src/images/icon/burger.png);
+  height: 16px;
+  background-image: url(./images/icon/burger.svg);
+  transition: background-image 0.3s ease;
 }
 
 .icon-burger:hover {
-  background-image: url(/src/images/icon/burger-hover.png);
-  animation-name: none;
-  animation-duration: 3s;
+  background-image: url(./images/icon/burgerHover.svg);
+}
+
+@media (max-width: 744px) {
+  .icon-burger,
+  .icon-burger:hover {
+    width: 18px;
+    height: 12px;
+  }
 }
 
 .icon-cros {
-  background-image: url(/src/images/icon/cros.png);
+  width: 21.33px;
+  height: 21.33px;
+  background-image: url(./images/icon/cros.svg);
+}
+
+@media (max-width: 744px) {
+  .icon-cros {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 744px) {
+  .icon-cros {
+    width: 16px;
+    height: 16px;
+  }
 }

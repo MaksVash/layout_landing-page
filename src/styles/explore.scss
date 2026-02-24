@@ -52,4 +52,11 @@
 
 .explore-h3 {
   color: #d12d35;
+  margin-top: 32px;
+}
+
+@media (max-width: 744px) {
+.explore-h3 {
+  margin-top: 24px;
+}
 }

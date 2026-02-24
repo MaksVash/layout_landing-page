@@ -9,11 +9,11 @@
 
 html {
   scroll-behavior: smooth;
-};
+}
 
 body {
   margin: 0;
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .content {
@@ -89,8 +89,8 @@ p {
 .phone-number {
   display: grid;
   position: absolute;
-  right: 220px;
-  top: 28.5PX;
+  right: 230px;
+  top: 28.5px;
 }
 
 @media (max-width: 1260px) {
@@ -125,12 +125,12 @@ p {
   padding: 0;
 }
 
-@media (max-width : 744px) {
+@media (max-width: 744px) {
   .number-1,
-.number-2 {
-  font-size: 14px;
-  line-height: 24px;
-}
+  .number-2 {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 .section-titel {
